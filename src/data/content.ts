@@ -16,6 +16,16 @@ import video2 from "../image/video2.mp4";
 import video3 from "../image/video3.mp4";
 import video4 from "../image/video4.mp4";
 
+import ankit from "../image/ankit.mp4";
+import samriddhi from "../image/samriddhi.mp4";
+import rahul from "../image/rahul.mp4";
+import vaidehi from "../image/vaidehi.mp4";
+
+import ankitThumb from "../image/ankitThumb.jpeg";
+import samriddhiThumb from "../image/samriddhiThumb.jpeg";
+import rahulThumb from "../image/rahulThumb.jpeg";
+import vaidehiThumb from "../image/vaidehiThumb.jpeg";
+
 export const personalInfo = {
   name: "Gayatri Dhanda",
   tagline: "Painter • Early Childhood Educator • Warm Soul with Sparkles",
@@ -166,40 +176,32 @@ export const testimonials = [
 export const feedbackVideos = [
   {
     id: 1,
-    poster:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80",
+    poster: vaidehiThumb,
     // Replace with actual video URL
-    videoUrl:
-      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-    name: "Sarah M.",
-    title: "Brand Collaboration",
+    videoUrl: vaidehi,
+    name: "Aarohi & Vaidehi",
+    title: "Housewife",
   },
   {
     id: 2,
-    poster:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
-    videoUrl:
-      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
-    name: "David C.",
-    title: "Art Commission",
+    poster: samriddhiThumb,
+    videoUrl: samriddhi,
+    name: "Samriddhi Singh",
+    title: "Medical Student",
   },
   {
     id: 3,
-    poster:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80",
-    videoUrl:
-      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
-    name: "Emily P.",
-    title: "Portrait Client",
+    poster: rahulThumb,
+    videoUrl: rahul,
+    name: "Rahul Jauhari",
+    title: "SDE-2 @AMD",
   },
   {
     id: 4,
-    poster:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
-    videoUrl:
-      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
-    name: "Michael R.",
-    title: "Corporate Project",
+    poster: ankitThumb,
+    videoUrl: ankit,
+    name: "Dr. Ankit Sharma",
+    title: "MBBS",
   },
   {
     id: 5,
