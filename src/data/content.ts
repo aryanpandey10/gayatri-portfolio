@@ -16,15 +16,24 @@ import video2 from "../image/video2.mp4";
 import video3 from "../image/video3.mp4";
 import video4 from "../image/video4.mp4";
 
+import video1Thumb from "../image/video1Thumb.jpg";
+import video2Thumb from "../image/video2Thumb.jpg";
+import video3Thumb from "../image/video3Thumb.jpg";
+import video4Thumb from "../image/video4Thumb.jpg";
+
 import ankit from "../image/ankit.mp4";
 import samriddhi from "../image/samriddhi.mp4";
 import rahul from "../image/rahul.mp4";
 import vaidehi from "../image/vaidehi.mp4";
+import niral from "../image/niral.mp4";
+import roshan from "../image/roshan.mp4";
 
 import ankitThumb from "../image/ankitThumb.jpeg";
 import samriddhiThumb from "../image/samriddhiThumb.jpeg";
 import rahulThumb from "../image/rahulThumb.jpeg";
 import vaidehiThumb from "../image/vaidehiThumb.jpeg";
+import niralThumb from "../image/niralThumb.jpeg";
+import roshanThumb from "../image/roshanThumb.jpeg";
 
 export const personalInfo = {
   name: "Gayatri Dhanda",
@@ -145,30 +154,30 @@ export const testimonials = [
   {
     id: 1,
     quote:
-      "Gayatri's artistic vision transformed our brand identity completely. Her ability to understand and translate our vision into stunning visuals is unmatched.",
-    author: "Sarah Mitchell",
-    role: "Creative Director, Studio Nine",
+      "Gayatri has this incredible gift of seeing beauty where others don't. The artwork she created for my studio space doesn't just decorate the walls—it inspires everyone who walks in. Her creativity knows no bounds.",
+    author: "Sapan Malik",
+    role: "ACE Certified Trainer",
   },
   {
     id: 2,
     quote:
-      "Working with Gayatri was an absolute pleasure. Her attention to detail and creative intuition brought our campaign to life in ways we never imagined.",
-    author: "David Chen",
-    role: "Marketing Head, Luxe Brands",
+      "I've known Gayatri for years, and watching her artistic journey has been amazing. She recently designed a piece for my office that perfectly balances professionalism with creative energy. Her work truly elevates any space.",
+    author: "Dravit Saini",
+    role: "Licensed Insurance Advisor",
   },
   {
     id: 3,
     quote:
-      "The painting Gayatri created for our home is breathtaking. She captured exactly what we envisioned and more. Truly a gifted artist.",
-    author: "Emily & James Parker",
-    role: "Art Collectors",
+      "Gayatri's attention to detail is extraordinary. She created a custom piece for my home that captures warmth and elegance beautifully. Every time I look at it, I discover something new. She's not just talented—she's genuinely passionate about her craft.",
+    author: "Divya Naini",
+    role: "Manager Credit Transaction Review",
   },
   {
     id: 4,
     quote:
-      "Gayatri brings a unique perspective to every project. Her work is not just beautiful—it's meaningful and emotionally resonant.",
-    author: "Priya Sharma",
-    role: "Gallery Owner",
+      "What sets Gayatri apart is her ability to connect with people through her art. She listens, understands your vision, and then creates something that exceeds all expectations. Working with her felt collaborative and inspiring.",
+    author: "Aabhushan",
+    role: "Creative Enthusiast",
   },
 ];
 
@@ -205,21 +214,17 @@ export const feedbackVideos = [
   },
   {
     id: 5,
-    poster:
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&q=80",
-    videoUrl:
-      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
-    name: "Priya S.",
-    title: "Gallery Exhibition",
+    poster: niralThumb,
+    videoUrl: niral,
+    name: "Niral Patel",
+    title: "AI Engineer",
   },
   {
     id: 6,
-    poster:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80",
-    videoUrl:
-      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-    name: "James L.",
-    title: "Creative Direction",
+    poster: roshanThumb,
+    videoUrl: roshan,
+    name: "Roshan P.",
+    title: "Sr. Product Manager @Sapura-Energy",
   },
 ];
 
@@ -332,34 +337,31 @@ export const lifestyleContent = [
   {
     id: 1,
     type: "video",
-    thumbnail:
-      "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=400&q=80",
+    thumbnail: video1Thumb,
     videoUrl: video1,
-    caption: "A day in the studio",
+    caption: "Ho gaya pyaar - khud se🌸A day in the studio",
   },
   {
     id: 2,
     type: "video",
-    thumbnail:
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=400&q=80",
+    thumbnail: video2Thumb,
     videoUrl: video2,
-    caption: "Mixing colors for my latest piece",
+    caption:
+      "☕️✨ When your bestie asks you out for a coffee, you know it’s going to be a good time!",
   },
   {
     id: 3,
     type: "video",
-    thumbnail:
-      "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=400&q=80",
+    thumbnail: video3Thumb,
     videoUrl: video3,
-    caption: "Gallery opening night",
+    caption: "Reel karo Feel karo!",
   },
   {
     id: 4,
     type: "video",
-    thumbnail:
-      "https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?w=400&q=80",
+    thumbnail: video4Thumb,
     videoUrl: video4,
-    caption: "Creative process revealed",
+    caption: "Masti ki duniya🌟",
   },
 ];
 
